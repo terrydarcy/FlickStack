@@ -1,0 +1,133 @@
+.header_container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  background-color: var(--primary);
+  height: 55px;
+  flex: 1;
+}
+
+.link {
+  padding: 0;
+  text-decoration: none;
+  overflow: hidden;
+}
+.header_Search {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_navigation {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: var(--accent) !important;
+
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.search-text_area {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+}
+.header_logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  overflow: visible;
+  margin-left: 10px;
+}
+.header_Button,
+.profile_button {
+  color: var(--accent) !important;
+  padding: 9px !important;
+}
+.title_color {
+  padding: 0;
+  margin: 0;
+  font-size: 35px;
+  font-family: customHelvetica;
+  font-weight: 100;
+
+  color: var(--accent) !important;
+}
+.title_color1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 35px;
+  font-family: customHelvetica;
+  color: var(--text) !important;
+}
+.profile_button_circle {
+  display: flex;
+  background-color: var(--secondary);
+  border-radius: 50px;
+  margin: 5px;
+  margin-left: 10px;
+}
+.search_bar {
+  width: 80%;
+  min-width: 110px;
+  height: 37px;
+  background-color: var(--secondary);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.search_icon_container {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--accent);
+}
+.input_field {
+  font-family: customHelvetica;
+  font-size: 11pt;
+  border-width: 0px;
+  width: 80%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 80%;
+  color: var(--text);
+  background-color: var(--secondary);
+}
+input:focus {
+  outline: none;
+}
+
+.header_logo_header {
+  content: url("../../res/logo1.png");
+  height: 40px;
+  padding: 5px;
+}
+@media (max-width: 600px) {
+  .header_logo_header {
+    height: 25px;
+    padding: 0px;
+  }
+}
+
+.header_links {
+  text-decoration: none !important;
+  background-color: var(--secondary) !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-family: customHelvetica !important;
+  border-radius: 40px !important;
+  color: var(--text) !important;
+}
+.MuiMenu-paper {
+  background-color: var(--primary);
+}

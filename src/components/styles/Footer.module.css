@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  font-size: 9pt;
+  color: var(--secondaryText);
+  font-family: customHelvetica;
+  background-color: var(--secondary);
+}
+
+a {
+  color: #50565e;
+}
+
+.footerFlex {
+  flex: 1;
+  width: 100%;
+  background-color: var(--secondary);
+}
+
+.footer_link {
+  text-decoration: none;
+  cursor: pointer;
+}

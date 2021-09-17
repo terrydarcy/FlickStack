@@ -1,0 +1,11 @@
+Light Mode 
+    headerColor
+    backgroundColor = 
+    textColor = 
+    accentColor = 
+
+Dark Mode
+    headerColor = 0x161B22
+    backgroundColor = 0x0D1117
+    textColor = 0xFFFFFF
+    accentColor = 0xEBEBD3

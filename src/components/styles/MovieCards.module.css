@@ -1,0 +1,39 @@
+.card {
+  background-size: 100% 100%;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  height: 600px;
+}
+
+.swipe {
+  height: 600px;
+  width: 400px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .card {
+    background-size: 100% 100%;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    height: 400px;
+  }
+
+  .swipe {
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}

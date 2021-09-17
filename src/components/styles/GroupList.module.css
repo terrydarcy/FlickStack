@@ -1,0 +1,33 @@
+.rounded_profile_group {
+  border-radius: 30px;
+  height: 35px;
+  border: solid var(--primary) 3px;
+  margin-right: 10px;
+}
+.group_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin:10px;
+  padding: 5px;
+  background-color: var(--secondary);
+  border-radius: 30px;
+}
+.groups_list {
+  max-height: 60vh; 
+  overflow-y: auto;
+}
+
+.group_list::-webkit-scrollbar {
+  width: 11px;
+}
+.coloredLine {
+  margin: 0px;
+  background-color: var(--accent);
+  height: 5px;
+  margin-left: 10px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  border: 0px solid;
+  border-radius: 50px;
+}

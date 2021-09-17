@@ -1,0 +1,61 @@
+.input_login {
+  font-family: customHelvetica;
+  font-size: 16px;
+  border-width: 0px;
+  flex-grow: 1;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-radius: 40px;
+  color: var(--text);
+  background-color: var(--thirdly);
+}
+
+.error {
+  font-family: customHelvetica;
+  color: red;
+}
+
+.create_account_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: customHelvetica;
+}
+
+.login_title {
+  font-family: customHelvetica;
+  text-align: center;
+  color: var(--text);
+}
+
+.input_container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.button_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50;
+}
+
+.login_button0 {
+  border-radius: 35px !important;
+  font-family: customHelvetica !important;
+  color: var(--text) !important;
+  background-color: var(--accent) !important;
+  padding: 8px 15px !important;
+}
+
+.login_button1 {
+  border-radius: 40px !important;
+  font-family: customHelvetica !important;
+  color: var(--text) !important;
+  background-color: var(--primary) !important;
+  padding: 8px 15px !important;
+  margin-left: 15px !important;
+
+ }

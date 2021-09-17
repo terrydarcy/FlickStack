@@ -1,0 +1,11 @@
+.swiping_container {
+  min-width: 300px;
+  overflow: show;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 5;
+  overflow: hidden;
+  height: 100%;
+}

@@ -1,0 +1,50 @@
+.song_card_component {
+  font-family: customHelvetica;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-width: 120px;
+  flex-direction: column;
+  max-width: 800px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+}
+.song_card_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.song_card_title {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  color: #bbddf5;
+  padding-top: 5px;
+}
+.song_card_content {
+  width: 100%;
+  flex: 7;
+}
+
+.song_card_text {
+  padding: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+  font-family: customHelveticaLight;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 100;
+}

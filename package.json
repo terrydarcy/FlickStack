@@ -1,0 +1,61 @@
+{
+  "name": "pickflix",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-transform": "^3.0.0",
+    "bootstrap": "^4.5.3",
+    "depcheck": "^1.3.1",
+    "firebase": "^8.1.1",
+    "google-auth-library": "^6.1.3",
+    "googleapis": "^66.0.0",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.14.0",
+    "react-flip-move": "^3.0.4",
+    "react-frame": "^2.2.22",
+    "react-iframe": "^1.8.0",
+    "react-player": "^2.7.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-tinder-card": "^1.4.0",
+    "react-toggle": "^4.1.2",
+    "react-vis": "^1.11.7",
+    "redux": "^4.0.5",
+    "styled-components": "^5.3.0",
+    "youtube-api-search": "0.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

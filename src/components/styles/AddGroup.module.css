@@ -1,0 +1,60 @@
+.add_group_container {
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 25px;
+  border-radius: 30px;
+}
+
+.add_group_button {
+  border-radius: 35px !important;
+  font-family: customHelvetica !important;
+  color: var(--text) !important;
+  background-color: var(--primary) !important;
+  padding: 0px 15px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.add_group_button_text {
+  padding: 0px;
+  margin: 10px;
+}
+
+.button_text {
+  color: var(--text);
+}
+.keyword_text {
+  font-size: 12px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  color: var(--secondaryText);
+}
+
+.add_group_input {
+  font-family: customHelvetica;
+  font-size: 13px;
+  border-width: 0px;
+  text-align: left;
+  padding: 5px;
+  width: 70%;
+  margin-top: 10px;
+  padding-left: 10px;
+  resize: none;
+  display: flex;
+  align-items: center;
+  color: var(--text);
+  background-color: var(--thirdly);
+  justify-content: left;
+  border-radius: 15px;
+}
+
+.add_group_title {
+  color: var(--accent);
+  margin-bottom: 0;
+}

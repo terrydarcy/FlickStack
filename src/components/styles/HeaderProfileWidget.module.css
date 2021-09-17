@@ -1,0 +1,6 @@
+.rounded_profile {
+  border-radius: 50%;
+  height: 30px;
+  margin-top: 5px;
+  border: solid var(--accent) 3px;
+}
